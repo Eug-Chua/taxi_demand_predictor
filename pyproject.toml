@@ -11,6 +11,7 @@ jupyter = "^1.0.0"
 requests = "^2.32.3"
 numpy = "^2.0.0"
 pyarrow = "^16.1.0"
+tqdm = "^4.66.4"
 
 
 [build-system]
