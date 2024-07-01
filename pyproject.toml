@@ -6,10 +6,10 @@ authors = ["Eug-Chua <eugene.chua.mail@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.10,<3.13"
 jupyter = "^1.0.0"
 requests = "^2.32.3"
-numpy = "^2.0.0"
+numpy = "<2.0.0"
 pyarrow = "^16.1.0"
 tqdm = "^4.66.4"
 plotly = "^5.22.0"
@@ -18,10 +18,12 @@ datetime = "^5.5"
 xgboost = "^2.1.0"
 lightgbm = "^4.4.0"
 ipykernel = "^6.29.4"
-pandas = "^2.2.2"
+pandas = "<2.2.0"
 dask = "^2024.6.2"
 optuna = "^3.6.1"
-
+python-dotenv = "^1.0.1"
+hsfs = "^3.7.6"
+hopsworks = "^3.7.0"
 
 [build-system]
 requires = ["poetry-core"]
