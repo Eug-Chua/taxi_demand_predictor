@@ -24,6 +24,8 @@ optuna = "^3.6.1"
 python-dotenv = "^1.0.1"
 hsfs = "^3.7.6"
 hopsworks = "^3.7.0"
+pytz = "^2024.1"
+scikit-learn = "^1.5.1"
 
 [build-system]
 requires = ["poetry-core"]
